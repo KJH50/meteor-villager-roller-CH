@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "meteor-villager-roller-CH",
+  "version": "${version}",
+  "name": "Meteor Villager Roller",
+  "description": "对村民进行交易的附加组件,汉化:KJH50",
+  "authors": [
+    "FlexCoral",
+    "seasnail8169",
+    "Cloudburst"
+  ],
+  "contact": {
+    "repo": "https://github.com/maxsupermanhd/meteor-villager-roller"
+  },
+  "icon": "assets/template/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "maxsuperman.addons.roller.VillagerRollerAddon"
+    ]
+  },
+  "mixins": [],
+  "custom": {
+    "meteor-client:color": "0,255,0"
+  },
+  "depends": {
+    "java": ">=21",
+    "minecraft": "${mc_version}",
+    "meteor-client": "*"
+  }
+}
